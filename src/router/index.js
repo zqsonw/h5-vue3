@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @uniVersion: 
+ * @Author: zq
+ * @Date: 2026-04-08 16:42:34
+ * @LastEditors: zq
+ * @LastEditTime: 2026-04-08 17:15:54
+ */
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Product from '../views/Product.vue'
@@ -13,7 +21,7 @@ const routes = [
     path: '/home',
     name: 'Home',
     component: Home,
-    meta: { title: '首页', icon: '🏠' }
+    meta: { title: '主页', icon: '🏠' }
   },
   {
     path: '/product',
