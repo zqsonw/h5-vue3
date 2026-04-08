@@ -11,6 +11,7 @@
           v-for="(slide, index) in banners" 
           :key="index"
           :class="{ active: currentSlide === index }"
+          @click="showToast(`查看详情: ${slide.title}`)"
         >
           <div class="banner-img" :style="{ background: slide.bg }">
             {{ slide.title }}
